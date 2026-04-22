@@ -20,6 +20,7 @@ public class UsuarioTest {
 
     private Usuario crearUsuario(String usuario, String contrasena, String correo, int edad) {
         Usuario u = new Usuario();
+
         setField(u, "usuario", usuario);
         setField(u, "contrasena", contrasena);
         setField(u, "correo", correo);
