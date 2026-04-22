@@ -1,4 +1,4 @@
-﻿package login;
+package login;
 
 /**
  * Ejercicio de pruebas unitarias sobre la clase Usuario.
@@ -51,8 +51,8 @@ public class Usuario {
 
     public boolean validarRegistro() {
         return validarUsuario()
-            && validarContrasena()
-            && validarCorreo()
-            && validarEdad();
+                && validarContrasena()
+                && validarCorreo()
+                && validarEdad();
     }
 }
