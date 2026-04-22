@@ -1,7 +1,5 @@
 package trayecto;
 
-import org.junit.platform.engine.support.descriptor.FileSystemSource;
-
 import java.time.LocalDate;
 
 public class Billete {
